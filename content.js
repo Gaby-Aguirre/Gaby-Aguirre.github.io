@@ -10,108 +10,252 @@ window.PORTFOLIO = {
   /* ---------- STYLE ----------
      Pick your look: "terminal", "clean", or "story".
      showThemePicker: true shows the style switcher in the corner.
-     Set it to false once you've picked your favorite.            */
+     Set it to false once you've picked your favorite.
+  */
   theme: "clean",
   showThemePicker: true,
 
-  /* ---------- ABOUT YOU ---------- */
-  name: "Anthony Cardozo",
-  initials: "AC",                       // shown if you don't add a photo
-  photo: "",                            // optional: "images/headshot.jpg"
-  headline: "Software engineer building cloud systems and developer tools.",
-  tagline: "I like building things people actually use.",   // used by the Story style
-  school: "CS at UT Austin, class of 2029",
-  location: "Austin, TX",
-  status: "Looking for Summer 2027 internships",             // leave "" to hide
 
-  about: "I've worked on AI evaluation at AWS, a browser-based compiler at a startup, and the platform my SHPE chapter runs on. Before all that, I built an online store for my family's candy business.",
+  /* ---------- ABOUT YOU ---------- */
+
+  name: "Gabriela Maria Aguirre",
+  initials: "GA",
+  photo: "images/headshot.jpg",
+
+  headline: "Mechanical engineering student interested in MEP, HVAC, manufacturing, and construction.",
+
+  tagline: "I like building things people actually use.",
+
+  school: "ME at UT Austin, class of 2027",
+
+  location: "Austin, TX",
+
+  status: "Looking for Summer 2027 full-time employment",
+
+  about: "I’m a mechanical engineering student at The University of Texas at Austin with hands-on experience in mechanical design, manufacturing, construction, and electronics. I enjoy building and troubleshooting physical systems, from restoring mechanical gearboxes and designing 3D-printed components to developing a Raspberry Pi photobooth. I’m especially interested in opportunities in MEP, HVAC, manufacturing, and mechanical design where I can apply engineering principles to real-world problems.",
+
 
   /* ---------- CONTACT ---------- */
-  email: "anthonycardozo06@gmail.com",
-  resume: "resume.pdf",                 // upload your resume with this exact name, or "" to hide
+
+  email: "gabriela512aguirre@gmail.com",
+
+  resume: "resume.pdf",
+
   links: [
-    { label: "LinkedIn", url: "https://linkedin.com/in/anthony-cardozo-4361b6310" },
-    { label: "GitHub",   url: "https://github.com/your-username" },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/gabriela512aguirre/"
+    },
+
+    {
+      label: "GitHub",
+      url: "https://github.com/Gaby-Aguirre"
+    },
   ],
+
 
   /* ---------- EXPERIENCE ----------
      Newest first. Copy a { ... }, block to add another.
+
      Jobs, internships, research, org leadership, and your own
-     business all count.                                           */
+     business all count.
+  */
+
   experience: [
+
     {
-      role: "Software Engineering Intern",
-      org: "Amazon Web Services",
-      place: "Seattle, WA",
-      dates: "Summer 2026",
-      summary: "Built a weekly pipeline that grades an AI root-cause-analysis agent and found fixes that raised its average score 23%.",
-      tags: ["Lambda", "SQS", "Bedrock", "DynamoDB"],
-    },
-    {
-      role: "Founding Engineer",
-      org: "One Dollar Computer",
+      role: "Security Guard",
+      org: "W3 Events",
       place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Built the cloud compiler that lets you write C or Rust in the browser and flash a RISC-V board in under 6 seconds.",
-      tags: ["C", "Rust", "GCP", "WebHID"],
+      dates: "June 2024 – Present",
+      summary: "Provided security at 100+ events, including festivals with up to 50,000 attendees, managing crowd flow and coordinating emergency response with on-site EMS.",
+      tags: [
+        "Safety",
+        "Crowd Management",
+        "Emergency Response",
+        "Level II Guard"
+      ],
     },
+
     {
-      role: "Website Lead",
-      org: "SHPE UT Austin",
+      role: "SHPE Jr. Cochair",
+      org: "Society of Hispanic Professional Engineers",
       place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Lead the platform 400+ members use to earn points for convention and stipends. 1,000+ check-ins in the first 3 weeks.",
-      tags: ["React", "Supabase"],
+      dates: "August 2024 – May 2026",
+      summary: "Created 22 engineering and college-readiness lesson plans for 20–30 high school students per class at Del Valle High School and coordinated transportation for UT student mentors.",
+      tags: [
+        "Leadership",
+        "STEM Outreach",
+        "Mentoring",
+        "Lesson Planning"
+      ],
     },
+
     {
-      role: "Founder",
-      org: "Cardozo Enchilados",
-      place: "Dallas, TX",
-      dates: "2023 – now",
-      summary: "Run a Mexican candy business with my family: 1,500+ units sold, plus a Stripe storefront that replaced taking orders over DMs.",
-      tags: ["React", "Express", "MongoDB", "Stripe"],
+      role: "Recruitment Team Member",
+      org: "Sigma Lambda Alpha Sorority, Inc.",
+      place: "Austin, TX",
+      dates: "January 2025 – Present",
+      summary: "Designed and produced 200+ promotional stickers using Sketchbook and a low-cost label-printing workflow, contributing to a 20% increase in applicants completing recruitment requirements.",
+      tags: [
+        "Graphic Design",
+        "Manufacturing",
+        "Sketchbook",
+        "Recruitment"
+      ],
     },
+
+    {
+      role: "Engineering Intern",
+      org: "Texas Department of Transportation",
+      place: "Austin, TX",
+      dates: "May 2024 – August 2024",
+      summary: "Shadowed a Civil Engineering Project Manager on I-35 construction projects, visiting active sites 2–5 times per week and observing bridge expansion, structural work, and construction coordination.",
+      tags: [
+        "Construction",
+        "Infrastructure",
+        "Field Engineering",
+        "Bridge Construction"
+      ],
+    },
+
+    {
+      role: "Desk Assistant",
+      org: "Nuclear Engineering and Teaching Laboratory",
+      place: "Austin, TX",
+      dates: "January 2024 – May 2024",
+      summary: "Supported daily laboratory operations through clerical work, package handling, front-desk support, appointment coordination, document preparation, and supply purchasing.",
+      tags: [
+        "Administrative Support",
+        "Procurement",
+        "Organization",
+        "Laboratory"
+      ],
+    },
+
   ],
+
 
   /* ---------- PROJECTS ----------
      2 to 4 projects works best. Class projects count!
+
      "result" is one line about what happened or what you learned.
-     "url" can link to a demo, GitHub repo, or photos ("" for none). */
+
+     "url" can link to a demo, GitHub repo, or photos ("" for none).
+  */
+
   projects: [
+
     {
-      name: "HONK",
-      when: "Hackathon · Apr 2026",
-      stack: ["Next.js", "Gemini", "Firebase"],
-      summary: "A focus app that checks your screen every minute. Drift off task and it honks at you and takes your bread.",
-      result: "Distracted time dropped from 33% to 8%",
-      url: "",
+      name: "Kid Trax Dodge Charger Gearbox Restoration",
+      when: "Machine Elements · June–July 2026",
+      stack: [
+        "SolidWorks",
+        "3D Printing",
+        "PETG",
+        "Mechanical Design"
+      ],
+      summary: "Led the gearbox portion of a team restoration of a damaged 12V Kid Trax Dodge Charger, replacing contaminated plastic spur gears with PETG helical gears and restoring the vehicle's electrical and mechanical systems.",
+      result: "Restored the vehicle to full operation while improving gearbox smoothness, noise, and reliability.",
+      url: "https://docs.google.com/presentation/d/1udCfTFDuD6pwA6FWX8RLGn8LzLSBV5h37wXKR-7fJgo/edit",
     },
+
     {
-      name: "Landing Pad",
-      when: "Hackathon · Jul 2026",
-      stack: ["React", "TypeScript", "AWS CDK"],
-      summary: "A no-login city guide where outgoing interns pass down their favorite food, housing, and activity spots to the next class.",
-      result: "54 places on a color-coded map",
-      url: "",
+      name: "AC/DC 3D-Printed Windmill",
+      when: "Mechatronics · January–May 2026",
+      stack: [
+        "TinkerCAD",
+        "LM339",
+        "LM35",
+        "Bridge Rectifier",
+        "3D Printing"
+      ],
+      summary: "Designed and built a wind-speed indicator that converts generator AC output to DC and uses comparator circuits and adjustable voltage thresholds to distinguish low, medium, and high wind speeds.",
+      result: "Successfully demonstrated real-time wind-speed indication using LED outputs across a 0–1.2 V generator range.",
+      url: "https://docs.google.com/presentation/d/1pWJDnLGHsimY_ynz45ATbphX2kYtFFeMZ0oiSwmEMO/edit",
     },
+
     {
-      name: "SHPE Chapter Platform",
-      when: "SHPE · 2026",
-      stack: ["React", "Supabase"],
-      summary: "Event check-ins, a points leaderboard, and an officer dashboard for our chapter.",
-      result: "1,000+ check-ins in 3 weeks",
-      url: "",
+      name: "Raspberry Pi Photobooth",
+      when: "Personal Project · 2026",
+      stack: [
+        "Python",
+        "Raspberry Pi",
+        "AutoCAD",
+        "3D Printing"
+      ],
+      summary: "Built a touchscreen photobooth using a Raspberry Pi 3B+, camera, speakers, Wi-Fi, countdown timer, and thermal receipt printer by modifying an existing open-source photobooth program to fit custom hardware.",
+      result: "Built a fully functional touchscreen photobooth and began designing a custom 3D-printed enclosure in AutoCAD.",
+      url: "https://github.com/Gaby-Aguirre/pi-photobooth",
     },
+
   ],
+
 
   /* ---------- SKILLS ----------
-     Group them however makes sense for your major.               */
+     Group them however makes sense for your major.
+  */
+
   skills: [
-    { group: "Languages",  items: ["Java", "C", "Python", "JavaScript", "TypeScript", "x86 Assembly"] },
-    { group: "Frameworks", items: ["React", "Next.js", "Node", "Express", "Supabase", "Firebase"] },
-    { group: "Cloud",      items: ["AWS Lambda", "S3", "SQS", "DynamoDB", "Bedrock", "CDK"] },
+
+    {
+      group: "CAD & Design",
+      items: [
+        "SolidWorks",
+        "AutoCAD",
+        "TinkerCAD",
+        "Revit"
+      ],
+    },
+
+    {
+      group: "Engineering Software",
+      items: [
+        "MATLAB",
+        "Multisim"
+      ],
+    },
+
+    {
+      group: "Programming & Electronics",
+      items: [
+        "Python",
+        "Arduino",
+        "Raspberry Pi"
+      ],
+    },
+
+    {
+      group: "Fabrication",
+      items: [
+        "3D Printing",
+        "Laser Cutting"
+      ],
+    },
+
+    {
+      group: "Adobe",
+      items: [
+        "InDesign",
+        "Acrobat"
+      ],
+    },
+
+    {
+      group: "Safety",
+      items: [
+        "OSHA 10-Hour Safety Training",
+        "Level II Security Guard License"
+      ],
+    },
+
   ],
 
-  /* ---------- AWARDS (optional, use [] for none) ---------- */
-  awards: ["Amazon Future Engineer Scholar", "Dijkstra Scholar", "HITEC Scholar", "HSF Scholar"],
+
+  /* ---------- AWARDS ----------
+     Use [] if you don't have awards.
+  */
+
+  awards: [],
+
 };

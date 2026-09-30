@@ -172,7 +172,7 @@ window.PORTFOLIO = {
       ],
       summary: "Designed and built a wind-speed indicator that converts generator AC output to DC and uses comparator circuits and adjustable voltage thresholds to distinguish low, medium, and high wind speeds.",
       result: "Successfully demonstrated real-time wind-speed indication using LED outputs across a 0–1.2 V generator range.",
-      url: "https://docs.google.com/presentation/d/1pWJDnLGHsimY_ynz45ATbphX2kYtFFeMZ0oiSwmEMO/edit",
+      url: "https://docs.google.com/presentation/d/1pWJDnLGHsimY_ynz45ATbphX2kYtFFeMZ0oiSwmEMO0/edit?usp=sharing",
     },
 
     {
